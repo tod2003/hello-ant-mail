@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="AntTestDemo" default="run" basedir=".">
+<property name="src" value="src"/>
+<property name="dest" value="classes"/>
+<property name="helloant_jar" value="helloant.jar"/>
+<property name="location" value="/Users/tod/work/helloant"/>  
+<property name="ReportName" value="TestReport" />
+
+<target name="init">
+   <mkdir dir="${dest}"/>
+</target>
+<target name="compile" depends="init">
+   <javac srcdir="${src}" destdir="${dest}"/>
+</target>
+<target name="build" depends="compile">
+   <jar jarfile="${helloant_jar}" basedir="${dest}"/>
+</target>
+<target name="run" depends="build">
+   <java classname="com.zdz.ant.test.HelloAnt" classpath="${helloant_jar}"/>
+   <antcall target="sendEmail">
+   </antcall>
+</target>
+<target name="clean">
+   <delete dir="${dest}" />
+   <delete file="${helloant_jar}" />
+</target>
+<target name="rerun" depends="clean,run">
+   <ant target="clean" />
+   <ant target="run" />
+</target>
+
+<target name="sendEmail"> 
+         <mail mailhost="smtp.163.com" mailport="465" user="tod_2003@163.com"  password="xxxxx" ssl="true"  from="tod_2003@163.com" subject="hongdou" messagemimetype="text/html" tolist="82161899@qq.com" cclist="tod_2003@163.com"> 
+           <fileset dir="${location}/report"> 
+             <include name="${ReportName}.html"/> 
+<include name="*.png"/>
+</fileset>  
+           <message charset="gb2312">hello doudou</message> 
+        </mail>
+</target> 
+</project>

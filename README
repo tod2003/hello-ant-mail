@@ -1,0 +1,59 @@
+ANT发邮件 ANT MAIL ——自动化打包最后一部优化
+首先，在Ant的lib中导入activation.jar和mail.jar，commons-email-1.2.jar。
+
+复制代码
+ 1 <project name="mailbyAnt" default="mail" basedir=".">
+ 2 
+ 3     <!-- change to your mail address -->
+ 4     <property name="mail_to" value="test1@xxx.com, test2@xxx.com" />
+ 5     
+ 6     <target name="mail">
+ 7         <mail from="from@xxx.com" 
+ 8             tolist="${mail_to}" 
+ 9             mailhost="smtp.xxx.com" 
+10             user="from" 
+11             password="test201203" 
+12             subject="this is a test for ant mail"
+13             message="mail content"
+14 <span style="white-space: pre;">            </span><!--messagefile="./src/test/ant/message_content.txt"-->
+15             messagemimetype="text/html">
+16             <fileset dir="./src/test/ant/" erroronmissingdir="false"/>
+17         </mail>
+18     </target>
+19 
+20 </project>
+复制代码
+对于常见属性的说明： 
+ 1、 mailhost    mail 服务器的地址
+ 2、 mailport     mail服务器的端口
+ 3、 replyto       回复mail地址   
+ 4、 tolist           收件地址列表  可用子标签替代
+ 5、 cclist          抄送地址列表  可用子标签替代
+ 6、 bcclist        暗送地址列表  可用子标签替代
+ 7、 message   邮件内容  一个或多个<message>子标签替代
+ 8、messagefile  文件列表文件内容将被做为邮件内容,  一个或多个<message>子标签替代
+ 9、messagemimetype 邮件类型， 默认为text/plain
+10、filset 附件列表 多个附件逗号或空格隔开 用<fileset> 子标签替代
+11、user 发送邮箱的用户名
+12、password 发送邮箱的密码
+13、 subject  邮件标题
+14、 charset 字符集
+15、 encode 编码
+16、 ssl 是否使用 TLS/SSL
+
+
+ mail 标签的子标签 
+ （1）to / cc / bcc / from/ replyto 
+     属性 
+          name   显示名称
+          address  邮件地址列表
+
+  （2）message 内容为标记邮件内容
+      属性
+         src  作为文件内容的文件列表
+         mime  mime 类型
+         charset  字符集
+      
+  （3）fileset
+       属性 dir  目录
+      子标签 include  属性 name 指定要包含的文件支持通配符
