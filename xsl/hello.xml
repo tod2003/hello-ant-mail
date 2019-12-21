@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="hello.xsl"?>
+<catalog>
+<cd index="title0">
+<title >Empire Burlesque</title>
+<artist>Bob Dylan</artist>
+<country>USA</country>
+<company>Columbia</company>
+<price>10.90</price>
+<year>1985</year>
+<a>a</a>
+</cd>
+<cd index="title1">
+<title >Hide your heart</title>
+<artist>doudou</artist>
+<country>UK</country>
+<company>CBS Records</company>
+<price>9.90</price>
+<year>1988</year>
+</cd>
+<cd index="title2">
+<title name="newTitle">kaka your heart</title>
+<artist>doudou</artist>
+<country>UK</country>
+<company>CBS Records</company>
+<price>9.90</price>
+<year>1961</year>
+</cd>
+<cd  index="title3">
+<title>亚里亚</title>
+<artist>Bonnie Tyler</artist>
+<country>UK</country>
+<company>CBS Records</company>
+<price>9.90</price>
+<year>1971</year>
+</cd>
+<cd  index="title4">
+<title>tt</title>
+<artist>Bonnie Tyler</artist>
+<country>UK</country>
+<company>CBS Records</company>
+<price>9.90</price>
+<year>1971</year>
+</cd>
+ 
+</catalog>
