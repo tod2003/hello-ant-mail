@@ -1,0 +1,1 @@
+g++ -std=c++11 -Wall -Wextra -Weffc++ -Wfloat-equal -Wshadow -Wpointer-arith -Wcast-align -Wstrict-overflow=5 -Wwrite-strings -Wswitch-default -Wswitch-enum -Wparentheses -Woverloaded-virtual -Wconversion -pedantic -g --coverage -pthread -I/home/3rdparty/boost_1_63_0/ -L/usr/lib64/mysql   -c -o tests/test.o tests/test.cpp

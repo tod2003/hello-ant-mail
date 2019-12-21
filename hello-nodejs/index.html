@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+   <!--
+    We are using Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+   -->
+    <button id="sendBtn">发送消息</button>
+
+    <button id="leaveBtn">离开</button>
+    <script>
+      // You can also require other files to run in this process
+     // require('./renderer.js')
+    </script>
+  </body>
+  <script type="text/javascript" src="./socket.io.slim.js"></script>
+  <script type="text/javascript">
+    var socket=io.connect('http://localhost:3001/test'),//与服务器进行连接
+        send=document.getElementById('sendBtn'),
+        leave=document.getElementById('leaveBtn');
+
+    send.onclick=function(){
+        socket.emit('hi', 'hello!');
+    }
+
+    leave.onclick=function(){
+        window.location.href="about:blank";
+        window.close()
+        socket.emit('leave', 'leave');
+    }
+
+    //接收来自服务端的信息事件c_hi
+    socket.on('c_hi',function(msg){
+        alert(msg)
+    })
+
+     socket.on('c_leave',function(msg){
+         alert(msg)
+     })
+
+  </script>
+
+</html>
