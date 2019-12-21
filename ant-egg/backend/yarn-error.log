@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/tod/.nvm/versions/node/v12.0.0/bin/node /Users/tod/.nvm/versions/node/v12.0.0/bin/yarn
+
+PATH: 
+  /usr/local/opt/qt/bin:/usr/local/opt/nss/bin:/usr/local/opt/libpq/bin:/usr/local/opt/libxml2/bin:/usr/local/opt/expat/bin:/usr/local/opt/nss/bin:/usr/local/opt/libpq/bin:/usr/local/opt/libxml2/bin:/usr/local/opt/expat/bin:/usr/local/opt/ruby/bin:/Users/tod/.nvm/versions/node/v12.0.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/opt/zip/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/opt/qt/bin:/usr/local/opt/nss/bin:/usr/local/opt/libpq/bin:/usr/local/opt/libxml2/bin:/usr/local/opt/expat/bin:/usr/local/opt/ruby/bin:/Users/tod/.nvm/versions/node/v12.0.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/opt/zip/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://10.43.75.53:8081/repository/npm-internal/egg: Package 'egg' not found
+      at Request.params.callback [as _callback] (/Users/tod/.nvm/versions/node/v12.0.0/lib/node_modules/yarn/lib/cli.js:66926:18)
+      at Request.self.callback (/Users/tod/.nvm/versions/node/v12.0.0/lib/node_modules/yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:196:13)
+      at Request.<anonymous> (/Users/tod/.nvm/versions/node/v12.0.0/lib/node_modules/yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:196:13)
+      at IncomingMessage.<anonymous> (/Users/tod/.nvm/versions/node/v12.0.0/lib/node_modules/yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:284:20)
+      at IncomingMessage.emit (events.js:201:15)
+      at endReadableNT (_stream_readable.js:1130:12)
+      at processTicksAndRejections (internal/process/task_queues.js:83:17)
+
+npm manifest: 
+  {
+    "name": "building",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "egg-bin dev",
+      "start": "egg-scripts start --daemon --port=7001 --daemon --title=egg-server-showcase",
+      "stop": "egg-scripts stop"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "egg": "^2.23.0",
+      "egg-scripts": "^2.11.1",
+      "egg-view-nunjucks": "^2.2.0",
+      "moment": "^2.24.0"
+    },
+    "devDependencies": {
+      "egg-bin": "^4.13.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

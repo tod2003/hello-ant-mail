@@ -1,0 +1,270 @@
+{
+  "keys": "/Users/tod/work/building/backend/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/tod/work/building/backend/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/tod/work/building/backend/config/config.default.js"
+    },
+    "root": "/Users/tod/work/building/backend/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/tod/work/building/backend/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultExtension": "/Users/tod/work/building/backend/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "news": {
+    "pageSize": "/Users/tod/work/building/backend/config/config.default.js",
+    "serverUrl": "/Users/tod/work/building/backend/config/config.default.js"
+  },
+  "middleware": "/Users/tod/work/building/backend/config/config.default.js",
+  "robot": {
+    "ua": "/Users/tod/work/building/backend/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/tod/work/building/backend/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/tod/work/building/backend/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/tod/work/building/backend/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/tod/work/building/backend/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "type": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "useSession": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "cookieName": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "sessionName": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "headerName": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "bodyName": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "queryName": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "maxAge": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "value": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "policy": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js",
+      "checkAddress": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/tod/work/building/backend/node_modules/_egg-security@2.7.1@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/tod/work/building/backend/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/tod/work/building/backend/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/tod/work/building/backend/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/tod/work/building/backend/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/tod/work/building/backend/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/tod/work/building/backend/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/tod/work/building/backend/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/tod/work/building/backend/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/tod/work/building/backend/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/tod/work/building/backend/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/tod/work/building/backend/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/tod/work/building/backend/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/tod/work/building/backend/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+    "eventSources": {
+      "default": "/Users/tod/work/building/backend/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/tod/work/building/backend/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/tod/work/building/backend/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/tod/work/building/backend/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/tod/work/building/backend/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fields": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "files": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/tod/work/building/backend/node_modules/_egg-multipart@2.9.1@egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/tod/work/building/backend/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/tod/work/building/backend/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/tod/work/building/backend/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/tod/work/building/backend/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/tod/work/building/backend/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/tod/work/building/backend/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/tod/work/building/backend/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/tod/work/building/backend/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/tod/work/building/backend/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/tod/work/building/backend/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/tod/work/building/backend/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/tod/work/building/backend/node_modules/_egg-static@2.2.0@egg-static/config/config.prod.js",
+    "maxFiles": "/Users/tod/work/building/backend/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxAge": "/Users/tod/work/building/backend/node_modules/_egg-static@2.2.0@egg-static/config/config.prod.js"
+  },
+  "env": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "name": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "proxy": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "maxIpsCount": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "version": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "description": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "main": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "dev": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "start": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "stop": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    },
+    "author": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "license": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "egg-scripts": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "moment": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "HOME": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "rundir": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "notFound": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "sitefile": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "middlewares": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "httpClient": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "encoding": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "formLimit": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "textLimit": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "strict": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "depth": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    },
+    "onerror": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "encoding": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "env": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "level": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "outputJSON": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "buffer": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "appLogName": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "coreLogName": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "agentLogName": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "errorLogName": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "coreLogger": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "maxSockets": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "maxSockets": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "logging": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "port": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+      "hostname": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/tod/work/building/backend/node_modules/_egg@2.25.0@egg/config/config.default.js"
+}

@@ -1,0 +1,45 @@
+2019-09-14 16:37:16,508 INFO 7084 [Timer] /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42763495ms at 2019-09-15 04:30:00.003
+2019-09-14 16:37:16,509 INFO 7084 [Timer] /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 26563491ms at 2019-09-15 00:00:00.000
+2019-09-14 16:37:16,509 INFO 7084 [Timer] /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26564491ms at 2019-09-15 00:00:01.000
+2019-09-14 16:37:16,383 INFO 7085 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 16:37:16,383 INFO 7085 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 16:37:16,383 INFO 7085 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:22:01,046 INFO 7571 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:22:01,047 INFO 7571 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:22:01,047 INFO 7571 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:22:03,383 INFO 7573 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:22:03,383 INFO 7573 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:22:03,383 INFO 7573 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:22:21,079 INFO 7581 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:22:21,079 INFO 7581 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:22:21,079 INFO 7581 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:22:23,622 INFO 7582 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:22:23,622 INFO 7582 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:22:23,622 INFO 7582 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:23:05,514 INFO 7615 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:23:05,514 INFO 7615 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:23:05,514 INFO 7615 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:23:45,232 INFO 7625 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:23:45,232 INFO 7625 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:23:45,232 INFO 7625 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:27:12,817 INFO 7678 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:27:12,817 INFO 7678 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:27:12,817 INFO 7678 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:41:54,123 INFO 7958 [Timer] /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38885880ms at 2019-09-15 04:30:00.003
+2019-09-14 17:41:54,123 INFO 7958 [Timer] /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 22685877ms at 2019-09-15 00:00:00.000
+2019-09-14 17:41:54,123 INFO 7958 [Timer] /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22686877ms at 2019-09-15 00:00:01.000
+2019-09-14 17:41:54,012 INFO 7959 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:41:54,012 INFO 7959 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:41:54,012 INFO 7959 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:50:51,930 INFO 8107 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:50:51,930 INFO 8107 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:50:51,930 INFO 8107 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-14 17:51:07,285 INFO 8109 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-14 17:51:07,285 INFO 8109 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-14 17:51:07,285 INFO 8109 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-14 21:07:01,322 INFO 16491 [Timer] /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26578681ms at 2019-10-15 04:30:00.003
+2019-10-14 21:07:01,322 INFO 16491 [Timer] /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10378678ms at 2019-10-15 00:00:00.000
+2019-10-14 21:07:01,322 INFO 16491 [Timer] /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10379678ms at 2019-10-15 00:00:01.000
+2019-10-14 21:07:01,149 INFO 16492 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-14 21:07:01,149 INFO 16492 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-14 21:07:01,149 INFO 16492 [egg-schedule]: register schedule /Users/tod/work/building/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
