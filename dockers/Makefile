@@ -1,3 +1,4 @@
+
 ubuntu:
 	docker run -it --name=myubuntu -v  /Users/tod/work:/work ubuntu /bin/bash
 
@@ -14,7 +15,7 @@ nodejs:
 	docker run -it --name=muynodejs -v /Users/tod/work:/work nodejs /bin/bash
 
 centos:
-	docker run --security-opt seccomp=unconfined -it --name=mycentos -v  /Users/tod/work:/work centos /bin/bash
+	docker run --security-opt seccomp=unconfined -it --name=mycentos2 -v /Users/tod/work:/work -p 9002:9002 centos /bin/bash
 
 centos-login:
 	docker start mycentos
@@ -60,3 +61,6 @@ dblog:
 dbtest:
 	mysql -h 127.0.0.1  -uroot -P3306 -proot
 	#show databases;
+
+boost:
+	docker run -it --name=myboost -p 9999:9999 -v /Users/tod/work:/work kcyeu/boost /bin/bash
