@@ -2,7 +2,9 @@ import 'dart:async';
 
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterwhatsapp/whatsapp_home.dart';
+import 'package:flutterwhatsapp/page_home.dart';
+import 'package:flutterwhatsapp/pages/login.dart';
+import 'package:flutterwhatsapp/pages/setting.dart';
 
 List<CameraDescription> cameras;
 
@@ -22,7 +24,12 @@ class MyApp extends StatelessWidget {
         accentColor: new Color(0xff25D366),
       ),
       debugShowCheckedModeBanner: false,
-      home: new WhatsAppHome(cameras:cameras),
+      home: new LoginPage(/*cameras:cameras*/),//new WhatsAppHome(cameras:cameras),
+      routes: {
+        '/loginPage': (ctx) => LoginPage(/*cameras:cameras*/),
+        '/homePage': (ctx) => WhatsAppHome(/*cameras:cameras*/),
+        '/settingPage': (ctx) => SettingPage(/*cameras:cameras*/),
+      },
     );
   }
 }

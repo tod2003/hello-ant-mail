@@ -16,6 +16,10 @@ dependencies:
   cupertino_icons: ^0.1.0
   camera: ^0.5.5
 
+  #gzx_dropdown_menu:
+  #  git:
+  #    url: https://github.com/GanZhiXiong/gzx_dropdown_menu.git
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -56,3 +60,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+
+  assets:
+    - assets/images/test.png
+

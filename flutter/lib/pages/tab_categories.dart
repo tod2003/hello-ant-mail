@@ -30,7 +30,15 @@ class CategoryTreeState extends State<CategoryTree> {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text('类别'),
+        title: Text(''),
+        actions: <Widget> [
+          IconButton(icon: Icon(Icons.refresh), onPressed: (){}),
+          IconButton(icon: Icon(Icons.add), onPressed: (){}),
+          IconButton(icon: Icon(Icons.delete), onPressed: (){}),
+          IconButton(icon: Icon(Icons.edit), onPressed: (){}),
+          IconButton(icon: Icon(Icons.search), onPressed: () {
+          }),
+        ]
       ),
       body: Container(
         child: Column(
@@ -180,8 +188,8 @@ class ImageText extends StatelessWidget {
           Visibility(
             visible: isHasChildren,
             child: Image.asset(isExpand
-                ? 'images/arrow_down_gray1.png'
-                : 'images/arrow_right_gray.png'),
+                ? 'assets/images/test.png'
+                : 'assets/images/test.png'),
           ),
           Text(
             str,

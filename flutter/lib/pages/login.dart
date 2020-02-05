@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutterwhatsapp/page_home.dart';
 import 'package:camera/camera.dart';
-import 'package:flutterwhatsapp/pages/login.dart';
 
 /*
 void main() => runApp(MyApp());
@@ -22,14 +21,14 @@ class MyApp extends StatelessWidget {
   }
 }
 */
-class SettingPage extends StatefulWidget {
+class LoginPage extends StatefulWidget {
   //final List<CameraDescription> cameras;
   //LoginPage({this.cameras});
   @override
-  _SettingPageState createState() => _SettingPageState();
+  _LoginPageState createState() => _LoginPageState();
 }
 
-class _SettingPageState extends State<SettingPage> {
+class _LoginPageState extends State<LoginPage> {
   final _formKey = new GlobalKey<FormState>();
 
   String _userID;
@@ -64,7 +63,7 @@ class _SettingPageState extends State<SettingPage> {
         ),
             (route) => route == null
     );
-    //MyApp改为要跳转的页面就可以了
+        //MyApp改为要跳转的页面就可以了
   }
 
   void _showMessageDialog(String message) {
@@ -98,9 +97,9 @@ class _SettingPageState extends State<SettingPage> {
         style: TextStyle(fontSize: 15),
         decoration: new InputDecoration(
             border: InputBorder.none,
-            hintText: '原密码',
+            hintText: '请输入帐号',
             icon: new Icon(
-              Icons.lock,
+              Icons.email,
               color: Colors.grey,
             )),
         onSaved: (value) => _userID = value.trim(),
@@ -118,7 +117,7 @@ class _SettingPageState extends State<SettingPage> {
         style: TextStyle(fontSize: 15),
         decoration: new InputDecoration(
             border: InputBorder.none,
-            hintText: '新密码',
+            hintText: '请输入密码',
             icon: new Icon(
               Icons.lock,
               color: Colors.grey,
@@ -133,7 +132,7 @@ class _SettingPageState extends State<SettingPage> {
     return Scaffold(
         appBar: CupertinoNavigationBar(
           backgroundColor: Colors.white,
-          middle: const Text('设置'),
+          middle: const Text('登录'),
         ),
         body: ListView(
           children: <Widget>[
@@ -166,59 +165,45 @@ class _SettingPageState extends State<SettingPage> {
               height: 70,
               padding: const EdgeInsets.fromLTRB(35, 30, 35, 0),
               child: OutlineButton(
-                child: Text('修改'),
+                child: Text('登录'),
                 textColor: Colors.orange,
                 color: Colors.white,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
                 borderSide: BorderSide(color: Colors.orange, width: 1),
                 onPressed: () {
-                  Navigator.of(context).pushAndRemoveUntil(
-                      new MaterialPageRoute(
-                          builder: (context) => new WhatsAppHome()
-                      ),
-                          (route) => route == null
-                  );
+                  _onLogin();
                 },
               ),
             ),
-            Container(
-              height: 70,
-              padding: const EdgeInsets.fromLTRB(35, 30, 35, 0),
-              child: OutlineButton(
-                child: Text('退出'),
-                textColor: Colors.orange,
-                color: Colors.white,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                borderSide: BorderSide(color: Colors.orange, width: 1),
-                onPressed: () {
-                  Navigator.of(context).pushAndRemoveUntil(
-                      new MaterialPageRoute(
-                          builder: (context) => new LoginPage()
-                      ),
-                          (route) => route == null
-                  );
-                },
+            Padding(
+              padding: const EdgeInsets.fromLTRB(40, 10, 50, 0),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: <Widget>[
+                  IconButton(
+                      icon: Icon(_checkIcon),
+                      color: Colors.orange,
+                      onPressed: () {
+                        setState(() {
+                          _isChecked = !_isChecked;
+                          if (_isChecked) {
+                            _checkIcon = Icons.check_box;
+                          } else {
+                            _checkIcon = Icons.check_box_outline_blank;
+                          }
+                        });
+                      }),
+                  Expanded(
+                    child: RichText(
+                        text: TextSpan(text: '我已经详细阅读并同意', style: TextStyle(color: Colors.black, fontSize: 13), children: <TextSpan>[
+                          TextSpan(text: '《隐私政策》', style: TextStyle(color: Colors.blue, decoration: TextDecoration.underline)),
+                          TextSpan(text: '和'),
+                          TextSpan(text: '《用户协议》', style: TextStyle(color: Colors.blue, decoration: TextDecoration.underline))
+                        ])),
+                  )
+                ],
               ),
-            ),
-            Container(
-              height: 70,
-              padding: const EdgeInsets.fromLTRB(35, 30, 35, 0),
-              child: OutlineButton(
-                child: Text('返回'),
-                textColor: Colors.orange,
-                color: Colors.white,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                borderSide: BorderSide(color: Colors.orange, width: 1),
-                onPressed: () {
-                  Navigator.of(context).pushAndRemoveUntil(
-                      new MaterialPageRoute(
-                          builder: (context) => new WhatsAppHome()
-                      ),
-                          (route) => route == null
-                  );
-                },
-              ),
-            ),
+            )
           ],
         ));
   }

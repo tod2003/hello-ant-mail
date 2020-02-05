@@ -2,16 +2,16 @@ import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterwhatsapp/pages/setting.dart';
 import 'package:flutterwhatsapp/pages/camera_screen.dart';
-import 'package:flutterwhatsapp/pages/users.dart';
+import 'package:flutterwhatsapp/pages/tab_users.dart';
+import 'package:flutterwhatsapp/pages/tab_customers.dart';
 import 'package:flutterwhatsapp/pages/status_screen.dart';
-import 'package:flutterwhatsapp/pages/goods_table.dart';
-import 'package:flutterwhatsapp/pages/details_table.dart';
-import 'package:flutterwhatsapp/pages/bills_table.dart';
-import 'package:flutterwhatsapp/pages/category_tree.dart';
+import 'package:flutterwhatsapp/pages/tab_goods.dart';
+import 'package:flutterwhatsapp/pages/tab_categories.dart';
+import 'package:flutterwhatsapp/pages/tab_bills.dart';
 
 class WhatsAppHome extends StatefulWidget {
-  final List<CameraDescription> cameras;
-  WhatsAppHome({this.cameras});
+  //final List<CameraDescription> cameras;
+  //WhatsAppHome({this.cameras});
 
   @override
   _WhatsAppHomeState createState() => _WhatsAppHomeState();
@@ -26,7 +26,7 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
   void initState() {
     super.initState();
 
-    _tabController = TabController(vsync: this, initialIndex: 1, length: 6);
+    _tabController = TabController(vsync: this, initialIndex: 1, length: 5);
     _tabController.addListener(() {
       if (_tabController.index == 1) {
         showFab = true;
@@ -39,7 +39,7 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return new Scaffold(
       appBar: AppBar(
         title: Text("德国柯诺"),
         elevation: 0.7,
@@ -50,19 +50,16 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
             //Tab(icon: Icon(Icons.camera_alt)),
             //Tab(text: "人员"),
             Tab(
-              text: "人员",
+              text: "员工",
             ),
             Tab(
-              text: "设置",
+              text: "客户",
             ),
             Tab(
-              text: "订单",
+              text: "销售单",
             ),
             Tab(
               text: "库存",
-            ),
-            Tab(
-              text: "明细",
             ),
             Tab(
               text: "类别",
@@ -70,10 +67,18 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
           ],
         ),
         actions: <Widget>[
+          IconButton(icon: Icon(Icons.settings), onPressed: () {
+            Navigator.of(context).pushAndRemoveUntil(
+                new MaterialPageRoute(
+                    builder: (context) => new SettingPage()
+                ),
+                    (route) => route == null
+            );
+          }),
           Icon(Icons.search),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 5.0),
-          ),
+          //Padding(
+          //  padding: const EdgeInsets.symmetric(horizontal: 5.0),
+          //),
           Icon(Icons.more_vert)
         ],
       ),
@@ -81,12 +86,11 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
         controller: _tabController,
         children: <Widget>[
           //CameraScreen(widget.cameras),
-          Users(),
+          UsersTable(),
           //StatusScreen(),
-          Setting(),
-          BillsTable(),
-          GoodsTable(),
+          CustomersTable(),
           DetailsTable(),
+          GoodsTable(),
           CategoryTree(),
         ],
       ),
